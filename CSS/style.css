@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.clr {
+  clear: both;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.border {
+  border: 2px solid #ea2a3d;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  color: #ea2a3d;
+  width: 20%;
+  padding: 10px 20px;
+}
+.border:hover {
+  background-color: #ea2a3d;
+  color: white;
+  transition: linear 0.4s;
+}
+
+.underline {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(39, 78, 186);
+  border-bottom: 1px solid rgb(39, 78, 186);
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 64px;
+  color: rgb(39, 78, 186);
+}
+
+/* Welcome section */
+.wel-section {
+  position: relative;
+  background-color: #f6f2ea;
+  height: 100vh;
+}
+.layer {
+  background-image: url(../Images/dina-seafood-1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  background-position: 50%;
+  position: absolute;
+  opacity: 0.3;
+  inset: 0;
+}
+.wel-left {
+  width: 70%;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+.wel-left h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 112px;
+  font-weight: 700;
+  color: rgb(39, 78, 186);
+  padding: 50px 0px;
+}
+.wel-right {
+  width: 30%;
+  float: right;
+  padding-top: 30px;
+  box-sizing: border-box;
+  padding-left: 50px;
+}
+.text {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 41px;
+  color: rgb(31, 53, 113);
+  margin-top: 50px;
+}
+.wel-right p {
+  white-space: pre-line;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.wel-right .text2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+/* Menu images section */
+.menu-img {
+  background-color: #ea2a3d;
+}
+.menu-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+.line1 {
+  width: 25%;
+  float: right;
+}
+.line2 {
+  width: 25%;
+  float: left;
+}
+.line3 {
+  width: 25%;
+  float: left;
+}
+/* .menu-img{
+    position: absolute;
+    top: 100vh;
+ }
+ .menu-img img{
+     width: 100%;
+     vertical-align: middle;
+ }
+ .line1{
+     width: 25%;
+     float: right;
+     position: relative;
+     top: 0px;
+     right: 0px;
+ }
+ .line2{
+   width: 25%;
+   float: left;
+   position: relative;
+   top: 447.656;
+ }
+ .line3{
+     width: 25%;
+     float: left;
+     position: relative;
+     left: 0;
+ } */
+
+/* History Section */
+.history {
+  background-color: #f6f2ea;
+}
+.his-left {
+  width: 50%;
+  float: left;
+  padding-top: 50px;
+}
+.his-left span {
+  margin-bottom: 40px;
+}
+.history p {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgb(31, 53, 113);
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.his-right {
+  width: 50%;
+  float: right;
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+.his-right h2 {
+  padding-bottom: 50px;
+}
+
+/* Icon section */
+.icons {
+  /* background-image: url(../Images/2.png), url(../Images/3.png), url(../Images/4.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: auto, auto, auto;
+    background-position: 25%, 50%, 75%; */
+  background-color: #f6f2ea;
+  text-align: center;
+  padding: 50px 0;
+}
+.icon img {
+  width: 50%;
+  vertical-align: middle;
+}
+.icon {
+  width: 25%;
+  float: left;
+}
+
+/* Menu section */
+.menu {
+  background-color: #f6f2ea;
+  text-align: center;
+  padding: 50px 0;
+}
+.menu-up {
+  padding-bottom: 40px;
+}
+.menu-up span {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(39, 78, 186);
+  border-bottom: 1px solid rgb(39, 78, 186);
+}
+.menu-down {
+  width: 33.33%;
+  float: left;
+  margin: 20px 0;
+}
+.menu-down h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(39, 78, 186);
+}
+.menu-down p {
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  color: rgb(31, 53, 113);
+  padding: 15px 0;
+}
+.menu-down span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(234, 42, 61);
+}
